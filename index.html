@@ -18,23 +18,28 @@
     />
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <title>Weather Application</title>
-    <link rel="stylesheet" href="./style/styles.css" class="css">
+    <link rel="stylesheet" href="./style/styles.css" class="css" />
   </head>
   <body>
     <div class="weatherContainer">
       <div class="rounded-pill">
-        <h1><img src="./images/cloudy.png" alt="light rain" id="icon" class="float-left"
-                    />Weather Application</h1>
-        <form id ="submit-form">
+        <h1>
+          <img
+            src="./images/cloudy.png"
+            alt="light rain"
+            id="icon"
+            class="float-left"
+          />Weather Application
+        </h1>
+        <form id="submit-form">
           <div class="container">
             <div class="search-form">
               <div class="row">
-                
                 <div class="col-4 city-name search-bar">
                   <input
                     type="text"
                     class="form-control"
-                    id = "check-location"
+                    id="check-location"
                     placeholder="Search City Name.."
                     autofocus="on"
                   />
@@ -89,15 +94,11 @@
                     </li>
                     <li>
                       Humidity:
-                      <span id="humidity"
-                        ><span class="degree">94</span>%</span
-                      >
+                      <span id="humidity"><span class="degree">94</span>%</span>
                     </li>
                     <li>
                       Wind:
-                      <span id="wind"
-                        ><span class="degree">6</span> mph</span
-                      >
+                      <span id="wind"><span class="degree">6</span> mph</span>
                     </li>
                   </ul>
                 </div>
@@ -107,7 +108,8 @@
                       src="./images/sun.png"
                       alt="light rain"
                       id="current-icon"
-                   0   class="float-left"
+                      0
+                      class="float-left"
                     />
                     <div class="float-left">
                       <strong id="temperature">0</strong>
@@ -210,12 +212,16 @@
                   </div>
                 </div>
               </div>
-              </div>
             </div>
           </div>
         </form>
       </div>
     </div>
     <script src="./src/index.js"></script>
+    <footer>
+      <a href="https://github.com/Rishita09/Weather-Application" target="_blank"
+        >Open Source Code </a
+      >by Rishita Shah
+    </footer>
   </body>
 </html>
