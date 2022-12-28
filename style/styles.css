@@ -1,0 +1,152 @@
+body {
+  font-family: "Comfortaa", cursive;
+  background-image: url("../images/appbg.jpg");
+}
+h1 {
+  text-align: center;
+  margin-top: 30px;
+  padding: 10px;
+  color: #fd5959;
+}
+ul {
+  font-size: 14px;
+  font-weight: 500;
+  list-style: none;
+  margin: 0;
+  padding-left: 12px;
+  padding-bottom: 8px;
+}
+
+.weatherContainer {
+  display: block;
+  margin-top: 95px;
+  width: 100%;
+}
+.rounded-pill {
+  width: 60%;
+  background-color: white;
+  border: 4px solid #0f8686;
+  margin: 0 auto;
+  height: 600px;
+}
+.city-name {
+  margin-left: 75px;
+}
+.search-bar {
+  padding: 6px;
+}
+.search-form {
+  padding: 5px;
+  margin-bottom: 10px;
+}
+.card-body {
+  border-radius: 4px;
+}
+.twilight-info {
+  font-size: 13px;
+  font-weight: 700;
+  width: 140px;
+  padding: 0;
+  padding-left: 5px;
+  background-color: #9cd3d3;
+  border: none;
+}
+.place-info {
+  margin-left: 120px;
+  margin-top: 10px;
+  padding: 0;
+}
+.city-card {
+  border: none;
+}
+.city-info {
+  font-size: 13px;
+  font-weight: 700;
+  width: 160px;
+  padding: 0;
+  margin-top: 14px;
+}
+.weather-conditions {
+  padding: 20px;
+  padding-right: 0;
+  font-size: 16px;
+}
+.weather {
+  padding: 24px;
+  padding-bottom: 18px;
+}
+.weather-temperature {
+  padding-top: 25px;
+}
+#humidity,
+#wind {
+  font-size: 16px;
+  font-weight: 600;
+}
+.degree {
+  font-size: 14px;
+  color: darkred;
+}
+.units {
+  position: relative;
+  top: -45px;
+  left: 10px;
+}
+.weekly-forecast {
+  font-size: 27px;
+  padding: 0;
+  margin-top: 15px;
+  margin-bottom: 12px;
+}
+.forecast-overview {
+  margin-left: 120px;
+}
+.forecast {
+  width: 100px;
+  margin-left: 10px;
+  padding: 5px 0;
+  border: 1px solid rgb(216, 199, 178);
+}
+#icon {
+  padding-right: 10px;
+  width: 80px;
+  height: 70px;
+}
+#current-icon {
+  padding: 27px;
+  padding-right: 16px;
+}
+.forecast-day {
+  text-align: center;
+  padding: 0;
+}
+.card-title {
+  padding-top: 5px;
+  margin: 0;
+}
+.forecast-icon {
+  width: 40px;
+  margin: 0 30px;
+  margin-bottom: 10px;
+}
+#city {
+  font-size: 27px;
+  color: rgb(6, 75, 75);
+  text-align: left;
+  margin-top: 20px;
+  padding: 0;
+  padding-left: 10px;
+  text-transform: capitalize;
+}
+#date {
+  font-weight: 800;
+}
+#description {
+  color: rgb(159, 73, 12);
+  font-size: 20px;
+  text-transform: capitalize;
+}
+#temperature {
+  margin-top: 20px;
+  font-size: 80px;
+}
