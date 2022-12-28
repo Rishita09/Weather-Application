@@ -16,6 +16,19 @@ ul {
   padding-left: 12px;
   padding-bottom: 8px;
 }
+footer {
+  background-color: rgb(250, 235, 215, 0.8);
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+  color: rgb(123, 30, 123);
+  width: 18%;
+  display: block;
+  margin: 0 auto;
+  margin-top: 16px;
+  padding: 7px;
+  border-radius: 18px;
+}
 
 .weatherContainer {
   display: block;
@@ -79,11 +92,6 @@ ul {
 .weather-temperature {
   padding-top: 25px;
 }
-#humidity,
-#wind {
-  font-size: 16px;
-  font-weight: 600;
-}
 .degree {
   font-size: 14px;
   color: darkred;
@@ -107,15 +115,6 @@ ul {
   padding: 5px 0;
   border: 1px solid rgb(216, 199, 178);
 }
-#icon {
-  padding-right: 10px;
-  width: 80px;
-  height: 70px;
-}
-#current-icon {
-  padding: 27px;
-  padding-right: 16px;
-}
 .forecast-day {
   text-align: center;
   padding: 0;
@@ -128,6 +127,20 @@ ul {
   width: 40px;
   margin: 0 30px;
   margin-bottom: 10px;
+}
+#humidity,
+#wind {
+  font-size: 16px;
+  font-weight: 600;
+}
+#icon {
+  padding-right: 10px;
+  width: 80px;
+  height: 70px;
+}
+#current-icon {
+  padding: 27px;
+  padding-right: 16px;
 }
 #city {
   font-size: 27px;
