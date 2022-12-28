@@ -104,7 +104,8 @@ footer {
 .weekly-forecast {
   font-size: 27px;
   padding: 0;
-  margin-top: 12px 0;
+  margin-top: 24px;
+  margin-bottom: 14px;
 }
 .forecast-overview {
   margin-left: 120px;
@@ -114,6 +115,7 @@ footer {
   margin-left: 10px;
   padding: 5px 0;
   border: 1px solid rgb(216, 199, 178);
+  box-shadow: 4px 4px 8px #425555;
 }
 .forecast-day {
   text-align: center;
