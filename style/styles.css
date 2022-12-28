@@ -69,11 +69,12 @@ ul {
 .weather-conditions {
   padding: 20px;
   padding-right: 0;
+  padding-bottom: 2px;
   font-size: 16px;
 }
 .weather {
   padding: 24px;
-  padding-bottom: 18px;
+  padding-bottom: 0;
 }
 .weather-temperature {
   padding-top: 25px;
@@ -95,8 +96,7 @@ ul {
 .weekly-forecast {
   font-size: 27px;
   padding: 0;
-  margin-top: 15px;
-  margin-bottom: 12px;
+  margin-top: 12px 0;
 }
 .forecast-overview {
   margin-left: 120px;
