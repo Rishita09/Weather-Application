@@ -23,11 +23,11 @@ function changeTemp(response) {
   description.innerHTML = response.data.weather[0].description;
   humidity.innerHTML = `${response.data.main.humidity}%`;
   wind.innerHTML = `${response.data.wind.speed} m/s`;
+  newCity.value = " ";
 }
 
 function showWeather(event) {
   event.preventDefault();
-  let newCity = document.querySelector("#check-location");
   city.innerHTML = newCity.value;
   let apiKey = "72fcc2019b422e7c2787f6b074b1f6d4";
   let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${newCity.value}&appid=${apiKey}&units=metric`;
@@ -36,6 +36,7 @@ function showWeather(event) {
 
 let city = document.querySelector("#city");
 let form = document.querySelector("#submit-form");
+let newCity = document.querySelector("#check-location");
 form.addEventListener("submit", showWeather);
 
 //Update 3
